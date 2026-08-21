@@ -21,13 +21,13 @@
 ### 資料庫設計 (Database Design - ER Model & Tables) ###
 
 系統資料庫包含以下核心表格與關聯：
-** 用戶表 (User)：記錄 `userID`、`userName`、`Email`、`password`、`Registration Date`
-** 漫畫表 (Comic)：記錄 `comicID`、`Title`、`Release Date`、`Author ID`、`Views`
-** 作者表 (Author)：記錄 `AuthorID`、`comicID`、`Author Name`
-** 評論表 (Comment)：記錄 `commentID`、`comment date`、`content`、`comicID`、`userID`
-** 收藏表 (Favorite)：記錄 `favorite ID`、`comic ID`、`userID`、`favorite date`
-** 評分表 (Rating)：記錄 `rating ID`、`period`、`category`、`comicID`、`Score`
-** 標籤表 (Tag)：記錄 `tagID`、`comicID`、`tagName`
+* ** 用戶表 (User)：記錄 `userID`、`userName`、`Email`、`password`、`Registration Date`
+* ** 漫畫表 (Comic)：記錄 `comicID`、`Title`、`Release Date`、`Author ID`、`Views`
+* ** 作者表 (Author)：記錄 `AuthorID`、`comicID`、`Author Name`
+* ** 評論表 (Comment)：記錄 `commentID`、`comment date`、`content`、`comicID`、`userID`
+* ** 收藏表 (Favorite)：記錄 `favorite ID`、`comic ID`、`userID`、`favorite date`
+* ** 評分表 (Rating)：記錄 `rating ID`、`period`、`category`、`comicID`、`Score`
+* ** 標籤表 (Tag)：記錄 `tagID`、`comicID`、`tagName`
 
 ---
 
